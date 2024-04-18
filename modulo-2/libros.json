@@ -1,0 +1,17 @@
+{
+    "libros": {
+      "libro": [
+        {
+          "titulo": "El Señor de los Anillos",
+          "autor": "J.R.R. Tolkien",
+          "anio_publicacion": 1954
+        },
+        {
+          "titulo": "Harry Potter y la Piedra Filosofal",
+          "autor": "J.K. Rowling",
+          "anio_publicacion": 1997
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,12 @@
+<libros>
+  <libro>
+    <titulo>El Señor de los Anillos</titulo>
+    <autor>J.R.R. Tolkien</autor>
+    <anio_publicacion>1954</anio_publicacion>
+  </libro>
+  <libro>
+    <titulo>Harry Potter y la Piedra Filosofal</titulo>
+    <autor>J.K. Rowling</autor>
+    <anio_publicacion>1997</anio_publicacion>
+  </libro>
+</libros>
