@@ -1,0 +1,60 @@
+﻿id_pedido;id_cliente;nombre_cliente;id_artículo;artículo_marca;cantidad;precio_unitario;
+1;101;Patricia Díaz;1;chaqueta, marca A;2;29;
+2;102;Marta Gutierrez;2;chaqueta, marca B;5;37;
+3;103;Cristina López;3;pantalón, marca C;3;42;
+3;103;Cristina López;2;chaqueta, marca B;1;37;
+;;;;;;;
+Los datos no son atómicos;;;;;;;
+;;;;;;;
+id_pedido ;id_cliente;nombre_cliente;id_artículo;artículo;marca;cantidad;precio_unitario
+1;101;Patricia Díaz;1;chaqueta;marca A;2;29
+2;102;Marta Gutierrez;2;chaqueta;marca B;5;37
+3;103;Cristina López;3;pantalón;marca C;3;42
+3;103;Cristina López;2;chaqueta;marca B;1;37
+;;;;;;;
+No hay PK / No una única;;;;;;;
+;;;;;;;
+id_cliente (PK);nombre_cliente;;;;;;
+101;Patricia Díaz;;;;;;
+102;Marta Gutierrez;;;;;;
+103;Cristina López;;;;;;
+;;;;;;;
+;;;;;;;
+id_artículo (PK);artículo;artículo_marca;cantidad;precio_unitario;;;
+1;chaqueta;marca A;2;29;;;
+2;chaqueta;marca B;5;37;;;
+3;pantalón;marca C;3;42;;;
+;;;;;;;
+;;;;;;;
+id_pedido (PK);nombre_cliente;artículo;marca;cantidad;precio_unitario;;
+1;Patricia Díaz;chaqueta;marca A;2;29;;
+2;Marta Gutierrez;chaqueta;marca B;5;37;;
+3;Cristina López;pantalón;marca C;3;42;;
+3;Cristina López;chaqueta;marca B;1;37;;
+;;;;;;;
+Disposición Final ;;;;;;;
+;;;;;;;
+;;;;;;;
+id_cliente (PK);nombre_cliente;;;;;;
+101;Patricia Díaz;;;;;;
+102;Marta Gutierrez;;;;;;
+103;Cristina López;;;;;;
+;;;;;;;
+;;;;;;;
+id_artículo (PK);artículo;marca;;;;;
+1;chaqueta;marca A;;;;;
+2;chaqueta;marca B;;;;;
+3;pantalón;marca C;;;;;
+;;;;;;;
+;;;;;;;
+id_pedido (PK);id_cliente (FK);;;;;;
+1;101;;;;;;
+2;102;;;;;;
+3;103;;;;;;
+;;;;;;;
+;;;;;;;
+id_detalles_pedido (PK);id_pedido (FK);id_artículo (FK);cantidad;precio_unitario;;;
+1;1;1;2;29;;;
+2;2;2;5;37;;;
+3;3;3;3;42;;;
+4;3;2;1;37;;;
