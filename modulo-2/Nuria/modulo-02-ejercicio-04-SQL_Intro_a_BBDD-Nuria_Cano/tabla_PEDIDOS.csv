@@ -1,0 +1,6 @@
+PK,,FK,FK,
+id_registro,id_pedido,id_cliente,id_artículo,cantidad
+01,1,101,1,2
+02,2,102,2,5
+03,3,103,3,3
+04,3,103,2,1
