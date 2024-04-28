@@ -1,12 +1,12 @@
-CREATE SCHEMA ejercicios_leccion02;
-USE ejercicios_leccion02;
+CREATE SCHEMA ejercicios_leccion05;
+USE ejercicios_leccion05;
 
 -- LECCIÓN 2. CREACIÓN BBDD
 /* Para comentarios multilínea, hay que cerrarlo!!!!! */
 
 -- Ejercicio 1
 CREATE TABLE empleadas(
-id_empleada INT NOT NULL AUTO_INCREMENT,
+id_empleada INT NOT NULL,
 salario FLOAT,
 nombre VARCHAR(50),
 apellido VARCHAR(50),
