@@ -18,7 +18,7 @@ Teniendo los ejercicos aqui, podremos ver tambien como resolvieron las demas Ada
 📫 El nombre de la carpeta debe ser modulo-X-leccion-X-ejercicio-X-descripcion-usuario-de-la-alumna.
 
 🧠 Todos los ejercicios de un mismo módulo deben estar dentro de la misma carpeta.
-Ejemplo: modulo-1/modulo-1-leccion-01-ejercicio-01-html-tags-maricarmen.
+Ejemplo: modulo-1/modulo-1-leccion-01-ejercicio-1-programacion_python-tu_nombre_completo.
 
 👯‍♀️De esta forma es muy sencillo ver de un vistazo todos los ejercicios.
 
