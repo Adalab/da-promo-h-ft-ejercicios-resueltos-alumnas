@@ -1,3 +1,7 @@
+-- EJERCICIOS DE UNION TABLAS (JOINS) --
+
+USE tienda;
+
 -- EJERCICIO 1
 -- Selecciona el ID, nombre, apellidos de las empleadas y el ID de cada cliente asociado a ellas, usando CROSS JOIN.
 SELECT employees.employee_number, employees.first_name, employees.last_name, customers.customer_number

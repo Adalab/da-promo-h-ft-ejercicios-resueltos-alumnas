@@ -1,3 +1,5 @@
+-- EJERCICIOS DE SQL MODIFICACIÓN E INSERCIÓN DE DATOS --
+
 CREATE SCHEMA insercion_datos;
 USE insercion_datos;
 

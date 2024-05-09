@@ -1,3 +1,7 @@
+-- EJERCICIOS DE SQL OPERADORES ESPECIALES DE FILTRO --
+
+USE tienda;
+
 -- 1. Selecciona los apellidos que se encuentren en ambas tablas para employees y customers, con alias 'Apellidos'.
 SELECT last_name AS "Apellidos"
 FROM employees

@@ -1,3 +1,5 @@
+-- EJERCICIOS DE SQL CREACIÓN BBDD --
+
 CREATE SCHEMA ejercicios_2;
 USE ejercicios_2;
 

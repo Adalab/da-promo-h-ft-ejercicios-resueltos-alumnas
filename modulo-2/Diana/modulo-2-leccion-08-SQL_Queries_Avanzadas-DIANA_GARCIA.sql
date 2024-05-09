@@ -1,3 +1,7 @@
+-- EJERCICIOS DE QUERIES AVANZADAS --
+
+USE tienda;
+
 -- 1. Realiza una consulta SELECT que obtenga el número identificativo de cliente más bajo de la base de datos.
 SELECT MIN(customer_number) AS IDMenor
 FROM customers;

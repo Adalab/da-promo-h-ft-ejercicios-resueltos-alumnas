@@ -1,3 +1,7 @@
+-- EJERCICIOS DE QUERIES BÁSICAS --
+
+USE tienda;
+
 -- 1. Realiza una consulta SELECT que obtenga los nombres, teléfonos y direcciones de todas las empresas cliente de la tabla customers.
 SELECT customer_name, phone, address_line1, address_line2
 FROM customers;

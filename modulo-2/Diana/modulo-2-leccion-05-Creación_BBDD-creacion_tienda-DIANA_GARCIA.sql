@@ -1,3 +1,5 @@
+-- EJERCICIOS DE SQL CREACIÓN BBDD --
+
 CREATE SCHEMA creacion_tienda;
 USE creacion_tienda;
 
